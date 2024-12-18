@@ -3,8 +3,8 @@
 #
 
 # Briefly summarize the requirements and goals of the app you developed. What user needs was this app designed to address?
-#    This mobile application was designed to assist users in tracking key events such as doctor appointments, social events, medication schedlues, etc. To achieve these goals user can 
-#    add event object titles, date/times and descriptions. 
+    This mobile application was designed to assist users in tracking key events such as doctor appointments, social events, medication schedlues, etc. To achieve these goals user can 
+    add event object titles, date/times and descriptions. 
 
 # What screens and features were necessary to support user needs and produce a user-centered UI for the app? How did your UI designs keep users in mind? Why were your designs successful?
 #    To achieve the goals of this system, there was a need for a primary login window, new account window, event tracker window, update event window and sms messaging permission window.
