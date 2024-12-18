@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8003A9F4"
+    android:columnCount="8"
+
+    android:visibility="visible"
+    tools:context=".MainActivity2">
+
+    <Space
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:layout_gravity="center_horizontal"
+
+        android:background="#03A9F4" />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="Month"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#3F51B5"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:backgroundTint="#00BCD4"
+        android:text="Update Appointments"
+        android:textColor="#2D3B8A"
+        android:id="@+id/idButtonUpdateEvent"/>
+
+    <GridView
+        android:id="@+id/main2Gridview"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:layout_columnSpan="2"
+        android:background="#5D03A9F4"
+        android:listSelector="@color/material_dynamic_tertiary80"
+        android:numColumns="4"
+        android:scrollbars = "vertical"
+        android:scrollbarStyle="insideOverlay"
+        android:verticalSpacing="10dp" />
+
+
+</GridLayout>
